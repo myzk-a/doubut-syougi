@@ -7,3 +7,11 @@
 
 ## やったこと
 * プログラムの実行環境をdockerで作成
+
+## 遊び方
+
+1. x window systemを起動
+2. ```docker-compose up``` を実行<br>
+![alt text](./img/readme_1.PNG)
+3. ゲーム画面が起動 <br>
+![alt text](./img/readme_2.PNG)
