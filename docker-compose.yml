@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    build: .
+    tty: true
+    environment:
+        - DISPLAY=host.docker.internal:0.0
+    working_dir: /home/src
+    volumes:
+        - "./src/:/home/src"
+    command: python human_play.py
