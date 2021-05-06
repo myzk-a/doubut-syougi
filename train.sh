@@ -1,0 +1,1 @@
+docker run -it --rm --runtime=nvidia -e TF_FORCE_GPU_ALLOW_GROWTH=true -v `pwd`/src:/home/src doubutu-syougi_app:latest python /home/src/train_cycle.py

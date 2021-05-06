@@ -23,5 +23,5 @@ for i in range(14):
 
   update_best_player = evaluate_network()
 
-  #if update_best_player:
-  #  evaluate_best_player()
+  if update_best_player:
+    evaluate_best_player()
